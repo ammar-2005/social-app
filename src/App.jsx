@@ -36,8 +36,13 @@ function App() {
   { path: 'posts/edit/:id', element: <ProtectRoute><EditPost /></ProtectRoute> },
     { path: '*', element: <Notfound />},
   ]
+  
 }
-  ])
+  ],
+   {
+    basename: '/social-app/'
+  }
+)
 
   return <AuthContextProvider>
   <RouterProvider router={router} />
