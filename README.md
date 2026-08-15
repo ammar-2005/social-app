@@ -66,7 +66,6 @@ SocialApp is a social networking platform where users can create an account, sha
 
 This project consumes the [Route Academy Posts API](https://route-posts.routemisr.com), which provides endpoints for authentication, posts, and comments.
 
-## 📁 Project Structure
 
 ```
 src/
